@@ -2,6 +2,8 @@
 require_once("product.class.php");
 require_once('category.class.php');
 
+$loi_str = ""; // Khởi tạo biến $loi_str
+
 if (isset($_POST["btnsubmit"])) {
     // Get value from form
     $productName = $_POST["txtname"];
